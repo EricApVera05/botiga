@@ -1,0 +1,172 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+	color: #333;
+	margin: 0;
+    
+}
+
+h2 {
+	font-size: 2.5rem; /* aumentamos el tamaño del título */
+}
+
+nav {
+	margin-top: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+li {
+	margin-right: 20px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d4af37;
+}
+
+main {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.centralizado {
+	margin-top: 100px; /* para separar el contenido del header */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+p {
+	font-size: 1
+}
+.galeria {
+	display: inline-block;
+	margin: 20px auto;
+}
+
+.galeria a {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.galeria img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: 2px solid #333;
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+	transform: scale(1.1);
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+	width: 200px;
+	height: 200px;
+  }
+  .anillos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .anillo {
+	margin: 20px;
+	max-width: 300px;
+  }
+  
+  .anillo-imagen {
+	max-width: 100%;
+	height: auto;
+  }
+  
+nav li {
+    margin-left: 1rem;
+}
+
+#lang-selector {
+    display: flex;
+    margin-left: 1rem;
+}
+
+#lang-selector select {
+    margin-left: 0.5rem;
+}
+
+
+/* Estilos específicos para anillos */
+ul.anillos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+}
+
+ul.anillos li {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul.anillos li img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+ul.anillos li h3 {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+ul.anillos li p {
+	color: #666;
+	font-size: 0.9rem;
+	margin: 0;
+	margin-top: 10px;
+}
