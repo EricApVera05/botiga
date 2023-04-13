@@ -12,6 +12,15 @@ header {
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.idioma{
+color:white;
+margin-left: 10px;
+}
+
+.idiomas-container {
+	float: right;
+}
+
 h1 {
 	color: #333;
 	margin: 0;
@@ -170,3 +179,38 @@ ul.anillos li p {
 	margin: 0;
 	margin-top: 10px;
 }
+.anillo-container {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .anillo-imagen-grande {
+	width: 60%;
+	height: auto;
+	margin-right: 20px;
+  }
+  .precio {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  .anillo-description {
+	width: 40%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.anillo-container {
+	  flex-direction: column;
+	}
+  
+	.anillo-imagen-grande {
+	  width: 100%;
+	  margin-right: 0;
+	  margin-bottom: 20px;
+	}
+  
+	.anillo-description {
+	  width: 100%;
+	}
+  }
+  
