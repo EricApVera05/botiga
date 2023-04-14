@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -28,7 +27,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.5rem; /* aumentamos el tamaño del título */
+	font-size: 2.5rem; 
 }
 
 nav {
@@ -73,7 +72,7 @@ footer {
 	text-align: center;
 }
 .centralizado {
-	margin-top: 100px; /* para separar el contenido del header */
+	margin-top: 100px; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -118,18 +117,18 @@ img {
 	width: 200px;
 	height: 200px;
   }
-  .anillos {
+.anillos {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
   }
   
-  .anillo {
+.anillo {
 	margin: 20px;
 	max-width: 300px;
   }
   
-  .anillo-imagen {
+.anillo-imagen {
 	max-width: 100%;
 	height: auto;
   }
@@ -148,7 +147,7 @@ nav li {
 }
 
 
-/* Estilos específicos para anillos */
+
 ul.anillos {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
